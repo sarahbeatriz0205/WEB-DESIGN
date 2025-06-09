@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'EBGaramond';
+    src: url(fontes/EB_Garamond/static/EBGaramond-Regular.ttf);
+}
+
+*{
+    text-align: center;
+}
+
+body{
+    background-color: #F9F1DC;
+}
+
+
+ol{
+    border: 5px solid #F5BD26;
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+
+}
+
+nav li a{
+    display: inline-block;
+    border: 2px solid #ba8f18;
+    padding: 1em 1em;
+    margin: 1em;
+    font-family: 'EBGaramond', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    background-color: #bb8c0b;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 5em;
+    padding: 2em;
+    margin-left:29em;
+    margin-right:29em;
+}
+
+li{
+    display: inline-block;
+}
+
+section{
+    font-family: 'EBGaramond', sans-serif;
+}
+
+
+address{
+    background-color: white;
+    margin: 0em;
+    padding: 1em;
+}
