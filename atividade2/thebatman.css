@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Consolas-Font';
+    src: url(fontes/Consolas-Font/Consolas.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Consolas';
+}
+
+body{
+    background-color: black;
+    color:rgb(20, 186, 20);
+    color:rgb(20, 186, 20);
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+header{
+    margin-top: 2em;
+}
+
+nav{
+    border: 1px solid rgb(7, 7, 7);
+    background-color: rgb(7, 7, 7);
+    padding-top: 2.2em;
+    padding-bottom: 0.5em;
+    margin-bottom: 4em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+nav a{
+    color: rgb(20, 186, 20);
+}
+
+a:hover{
+    color: rgb(134, 255, 134);
+}
+p.sinopse{
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+section figure img{
+    width: 100%;
+}
+
+article img.imagembatman{
+    margin-left: 19.2em;
+    margin-right: 5em; 
+    margin-top: 3em;
+}
+
+h1{
+    font-size: 1.6em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+figcaption{
+    text-align: center;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+p.trama{
+    margin-top: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h2{
+    font-size: 20px;
+    padding-top: 2em;
+}
+
+h3{
+    font-size: 10px;
+    text-align: center;
+}
+
+ul.elenco{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5em;
+   margin-left: 4.3em;
+
+}
+
+li{
+    width: 207px;
+    margin-bottom: 2em;
+}
+
+footer{
+    font-size: 0.8em;
+    margin-top: 4em;
+    text-align: center;
+}
