@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Inter' ;
+    src: url(fontes/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 237, 237);
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-image: linear-gradient(to right, #72CFED, #186C86);
+    margin-bottom: 3em;
+    padding: 0.7em 3em;
+}
+
+div{
+    background-color: #FFFF;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px black ;
+    margin: 1em;
+    height: 23em;
+    width: 18em;
+    padding: 1em;
+    
+}
+
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #186C86;
+    font-weight: normal;
+}
+
+p{
+    padding-right: 4em;
+}
+
+figure{
+    margin-top: 1em;
+}
+
+span{
+    display: block;
+    text-align: right;
+    color: gray;
+}
