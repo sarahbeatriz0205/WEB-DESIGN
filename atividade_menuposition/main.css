@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul#container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+ul li{
+    list-style-type: none;
+    background-color: rgb(99, 202, 168);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 10rem;
+}
+div.submenu{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left:2rem;
+    top: 3rem;
+}
+div.submenudocente{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 57rem;
+    top: 3rem;
+}
