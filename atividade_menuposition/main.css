@@ -15,12 +15,18 @@ ul li{
     margin-top: 1rem;
     width: 10rem;
 }
+
+li:hover{
+    background-color: aquamarine;
+}
+
 div.submenu{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
     left:2rem;
     top: 3rem;
+    visibility: collapse;
 }
 div.submenudocente{
     display: flex;
@@ -28,4 +34,5 @@ div.submenudocente{
     position: absolute;
     left: 57rem;
     top: 3rem;
+    visibility: collapse;
 }
