@@ -17,71 +17,60 @@ main{
     max-width: 100vw;
     display: grid;
     grid-template-areas: 
-    "a b c d ."
-    ". j h f g"
-    ". e . i .";
+    "a b c c d"
+    "a j h f g"
+    "a e h i i";
     gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15em 15em 15em;
 }
 
 section{
     background-color: #dddddd;
-    padding: 2rem;
-    width: 20rem;
 }
 
 section.imagem1{
     background-image: url(palestrantes/amanda.jpg);
     background-repeat: no-repeat;
-    background-size: 20rem;
+    background-size: cover;
     background-color: none;
-    width: 20rem;
     padding: 0;
 }
 section.imagem2{
     background-image: url(palestrantes/ellen.jpg);
     background-repeat: no-repeat;
-    background-size: 20rem;
+    background-size: cover;
     background-color: none;
-    width: 20rem;
     padding: 0;
 }
 section.imagem3{
     background-image: url(palestrantes/georgia.jpg);
     background-repeat: no-repeat;
-    background-size: 20rem;
+    background-size: cover;
     background-color: none;
-    width: 20rem;
     padding: 0;
 }
 section.imagem4{
     background-image: url(palestrantes/henrique.jpg);
     background-repeat: no-repeat;
-    background-size: 20rem;
+    background-size: cover;
     background-color: none;
-    width: 20rem;
     padding: 0;
 }
 table, td{
     border: 1px solid black;
-    width: 26rem;
 }
-
-section.lermais, section.listadeeventos{
-    width: 15rem;
-}
-
-section.programacao{
-    width: 30rem;
-}
-
 section.menu{
     grid-area: a;
+    padding: 3rem;
 }
 section.lermais{
     grid-area: b;
+    padding: 3rem;
 }
 section.programacao{
     grid-area: c;
+    padding: 3rem;
 }
 section.imagem1{
     grid-area: d;
@@ -97,10 +86,13 @@ section.imagem4{
 }
 section.inscricao{
     grid-area: h;
+    padding: 3rem;
 }
 section.organizacao{
     grid-area: i;
+    padding: 3rem;
 }
 section.listadeeventos{
     grid-area: j;
+    padding: 3rem;
 }
