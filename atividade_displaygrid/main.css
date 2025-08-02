@@ -6,11 +6,20 @@
 
 header{
     background-image: linear-gradient(to left,#7292A6, #224459 );
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding: 1rem;
+}
+header p{
+    padding-top: 0.5rem;
 }
 
 footer{
    background-color:  #224459 ;
-   
+   padding: 5rem;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
 }
 
 main{
@@ -34,35 +43,64 @@ section.imagem1{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: none;
-    padding: 0;
+    filter: grayscale();
+    padding: 6rem;
 }
 section.imagem2{
     background-image: url(palestrantes/ellen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: none;
-    padding: 0;
+    filter: grayscale();
+    padding: 6rem;
 }
 section.imagem3{
     background-image: url(palestrantes/georgia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: none;
-    padding: 0;
+    filter: grayscale();
+    padding: 6rem;
 }
 section.imagem4{
     background-image: url(palestrantes/henrique.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: none;
-    padding: 0;
+    filter: grayscale();
+    padding: 6rem;
 }
 table, td{
+    border: 1px solid rgb(96, 94, 94);
+}
+.menu li{
+    padding-top: 2.6rem;
+    font-size: 2rem;
+    color: #355162;
+    list-style-type: none;
+}
+.listadeeventos li{
+    padding-top: 0.5rem;
+}
+.lermais p{
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inscricao input{
     border: 1px solid black;
+    border-radius: 0%;
+    padding: 0.5rem;
+}
+.inscricao form{
+    margin-top: 1rem;
+}
+.inscricao{
+    font-family: Arial, Helvetica, sans-serif;
 }
 section.menu{
     grid-area: a;
     padding: 3rem;
+    font-family: 'Roboto Mono', monospace;
 }
 section.lermais{
     grid-area: b;
@@ -71,6 +109,7 @@ section.lermais{
 section.programacao{
     grid-area: c;
     padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 section.imagem1{
     grid-area: d;
@@ -91,8 +130,11 @@ section.inscricao{
 section.organizacao{
     grid-area: i;
     padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
 }
 section.listadeeventos{
     grid-area: j;
     padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
